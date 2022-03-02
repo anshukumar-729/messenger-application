@@ -70,8 +70,8 @@ function App() {
   async function getMassage(){
     try{
       const response = await fetch(
-      "https://arcane-brushlands-01906.herokuapp.com/api/read",
-      // "http://localhost:3020/api/read"
+      // "https://arcane-brushlands-01906.herokuapp.com/api/read",
+      "http://localhost:3020/api/read"
       )
 const data = await response.json()
       
