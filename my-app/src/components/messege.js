@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import $ from "jquery";
 
 const Messeges = () => {
+  const [flag1,setFlag1] =useState(0);
+  const [flag2,setFlag2] =useState(0);
   const [name, setName] = useState("");
   const [massage, setMassage] = useState("");
   const [n1, setn1] = useState("");
@@ -40,6 +42,37 @@ const Messeges = () => {
   const [n29, setn29] = useState("");
   const [n30, setn30] = useState("");
   const [n31, setn31] = useState("");
+  const [t1, setT1] = useState("");
+  const [t2, setT2] = useState("");
+  const [t3, setT3] = useState("");
+  const [t4, setT4] = useState("");
+  const [t5, setT5] = useState("");
+  const [t6, setT6] = useState("");
+  const [t7, setT7] = useState("");
+  const [t8, setT8] = useState("");
+  const [t9, setT9] = useState("");
+  const [t10, setT10] = useState("");
+  const [t11, setT11] = useState("");
+  const [t12, setT12] = useState("");
+  const [t13, setT13] = useState("");
+  const [t14, setT14] = useState("");
+  const [t15, setT15] = useState("");
+  const [t16, setT16] = useState("");
+  const [t17, setT17] = useState("");
+  const [t18, setT18] = useState("");
+  const [t19, setT19] = useState("");
+  const [t20, setT20] = useState("");
+  const [t21, setT21] = useState("");
+  const [t22, setT22] = useState("");
+  const [t23, setT23] = useState("");
+  const [t24, setT24] = useState("");
+  const [t25, setT25] = useState("");
+  const [t26, setT26] = useState("");
+  const [t27, setT27] = useState("");
+  const [t28, setT28] = useState("");
+  const [t29, setT29] = useState("");
+  const [t30, setT30] = useState("");
+  const [t31, setT31] = useState("");
   const [m1, setm1] = useState("");
   const [m2, setm2] = useState("");
   const [m3, setm3] = useState("");
@@ -79,7 +112,7 @@ const Messeges = () => {
         "http://localhost:3020/api/read"
       );
       const data = await response.json();
-
+        
       setn1(data.result[data.result.length - 1].name);
       setn2(data.result[data.result.length - 2].name);
       setn3(data.result[data.result.length - 3].name);
@@ -111,6 +144,37 @@ const Messeges = () => {
       setn29(data.result[data.result.length - 29].name);
       setn30(data.result[data.result.length - 30].name);
       setn31(data.result[data.result.length - 31].name);
+      setT1(data.result[data.result.length - 1].time);
+      setT2(data.result[data.result.length - 2].time);
+      setT3(data.result[data.result.length - 3].time);
+      setT4(data.result[data.result.length - 4].time);
+      setT5(data.result[data.result.length - 5].time);
+      setT6(data.result[data.result.length - 6].time);
+      setT7(data.result[data.result.length - 7].time);
+      setT8(data.result[data.result.length - 8].time);
+      setT9(data.result[data.result.length - 9].time);
+      setT10(data.result[data.result.length - 10].time);
+      setT11(data.result[data.result.length - 11].time);
+      setT12(data.result[data.result.length - 12].time);
+      setT13(data.result[data.result.length - 13].time);
+      setT14(data.result[data.result.length - 14].time);
+      setT15(data.result[data.result.length - 15].time);
+      setT16(data.result[data.result.length - 16].time);
+      setT17(data.result[data.result.length - 17].time);
+      setT18(data.result[data.result.length - 18].time);
+      setT19(data.result[data.result.length - 19].time);
+      setT20(data.result[data.result.length - 20].time);
+      setT21(data.result[data.result.length - 21].time);
+      setT22(data.result[data.result.length - 22].time);
+      setT23(data.result[data.result.length - 23].time);
+      setT24(data.result[data.result.length - 24].time);
+      setT25(data.result[data.result.length - 25].time);
+      setT26(data.result[data.result.length - 26].time);
+      setT27(data.result[data.result.length - 27].time);
+      setT28(data.result[data.result.length - 28].time);
+      setT29(data.result[data.result.length - 29].time);
+      setT30(data.result[data.result.length - 30].time);
+      setT31(data.result[data.result.length - 31].time);
       setm1(data.result[data.result.length - 1].massage);
       setm2(data.result[data.result.length - 2].massage);
       setm3(data.result[data.result.length - 3].massage);
@@ -142,8 +206,10 @@ const Messeges = () => {
       setm29(data.result[data.result.length - 29].massage);
       setm30(data.result[data.result.length - 30].massage);
       setm31(data.result[data.result.length - 31].massage);
+      setFlag1(1);
     } catch (err) {
       console.log(err);
+      setFlag2(1);
     }
   }
 
@@ -156,7 +222,10 @@ const Messeges = () => {
 
     return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
   }, []);
-
+  function flags(){
+    setFlag1(0);
+    setFlag2(0);
+  }
   async function SendMassage(event) {
     getMassage();
 
@@ -204,214 +273,231 @@ const Messeges = () => {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
       </head>
-      <div className="container col-10">
-        <button type="button" className="btn btn-secondary col-13 m-2" onClick={getMassage}>
+      <div className="container col-12  myClass">
+        <button
+          type="button"
+          className="btn  col-13 m-2 myButton"
+          onClick={(getMassage, flags)}
+        >
           Reload messages
         </button>
-        <table className="table">
-          <thead>
-            <tr>
-              <th scope="col" className="col-3">
-                Time
-              </th>
-              <th scope="col" className="col-3">
-                Name
-              </th>
-              <th scope="col" className="col-6">
-                Messages
-              </th>
-            </tr>
-          </thead>
-          {/* <tbody> */}
+        {flag1 ? (
+          <>
+            <h2 className="col-10 text-white">Some last messages</h2>
+            <table className="table">
+              <thead>
+                <tr>
+                  <th scope="col" className="col-2 text-white">
+                    Time
+                  </th>
+                  <th scope="col" className="col-2 text-white">
+                    Name
+                  </th>
+                  <th scope="col" className="col-6 text-white">
+                    Messages
+                  </th>
+                </tr>
+              </thead>
+              {/* <tbody> */}
 
-          <tr>
-            <td>2</td>
-            <td> {n1} </td>
-            <td>{m1}</td>
-          </tr>
+              <tr>
+                <td>{t1}</td>
+                <td> {n1} </td>
+                <td>{m1}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n2} </td>
-            <td>{m2}</td>
-          </tr>
+              <tr>
+                <td> {t2} </td>
+                <td> {n2} </td>
+                <td>{m2}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n3} </td>
-            <td>{m3}</td>
-          </tr>
+              <tr>
+                <td> {t3} </td>
+                <td> {n3} </td>
+                <td>{m3}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n4} </td>
-            <td>{m4}</td>
-          </tr>
+              <tr>
+                <td> {t4} </td>
+                <td> {n4} </td>
+                <td>{m4}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n5} </td>
-            <td>{m5}</td>
-          </tr>
+              <tr>
+                <td> {t5} </td>
+                <td> {n5} </td>
+                <td>{m5}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n6} </td>
-            <td>{m6}</td>
-          </tr>
+              <tr>
+                <td> {t6} </td>
+                <td> {n6} </td>
+                <td>{m6}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n7} </td>
-            <td>{m7}</td>
-          </tr>
+              <tr>
+                <td> {t7} </td>
+                <td> {n7} </td>
+                <td>{m7}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n8} </td>
-            <td>{m8}</td>
-          </tr>
+              <tr>
+                <td> {t8} </td>
+                <td> {n8} </td>
+                <td>{m8}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n9} </td>
-            <td>{m9}</td>
-          </tr>
+              <tr>
+                <td> {t9} </td>
+                <td> {n9} </td>
+                <td>{m9}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n10}</td>
-            <td> {m10}</td>
-          </tr>
+              <tr>
+                <td> {t10}</td>
+                <td> {n10}</td>
+                <td> {m10}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n11}</td>
-            <td> {m11}</td>
-          </tr>
+              <tr>
+                <td> {t11}</td>
+                <td> {n11}</td>
+                <td> {m11}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n12}</td>
-            <td> {m12}</td>
-          </tr>
+              <tr>
+                <td> {t12}</td>
+                <td> {n12}</td>
+                <td> {m12}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n13}</td>
-            <td> {m13}</td>
-          </tr>
+              <tr>
+                <td> {t13}</td>
+                <td> {n13}</td>
+                <td> {m13}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n14}</td>
-            <td> {m14}</td>
-          </tr>
+              <tr>
+                <td> {t14}</td>
+                <td> {n14}</td>
+                <td> {m14}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n15}</td>
-            <td> {m15}</td>
-          </tr>
+              <tr>
+                <td> {t15}</td>
+                <td> {n15}</td>
+                <td> {m15}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n16}</td>
-            <td> {m16}</td>
-          </tr>
+              <tr>
+                <td> {t16}</td>
+                <td> {n16}</td>
+                <td> {m16}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n17}</td>
-            <td> {m17}</td>
-          </tr>
+              <tr>
+                <td> {t17}</td>
+                <td> {n17}</td>
+                <td> {m17}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n18}</td>
-            <td> {m18}</td>
-          </tr>
+              <tr>
+                <td> {t18}</td>
+                <td> {n18}</td>
+                <td> {m18}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n19}</td>
-            <td> {m19}</td>
-          </tr>
+              <tr>
+                <td> {t19}</td>
+                <td> {n19}</td>
+                <td> {m19}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n20}</td>
-            <td> {m20}</td>
-          </tr>
+              <tr>
+                <td> {t20}</td>
+                <td> {n20}</td>
+                <td> {m20}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n21}</td>
-            <td> {m21}</td>
-          </tr>
+              <tr>
+                <td> {t21}</td>
+                <td> {n21}</td>
+                <td> {m21}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n22}</td>
-            <td> {m22}</td>
-          </tr>
+              <tr>
+                <td> {t22}</td>
+                <td> {n22}</td>
+                <td> {m22}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n23}</td>
-            <td> {m23}</td>
-          </tr>
+              <tr>
+                <td> {t23}</td>
+                <td> {n23}</td>
+                <td> {m23}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n24}</td>
-            <td> {m24}</td>
-          </tr>
+              <tr>
+                <td> {t24}</td>
+                <td> {n24}</td>
+                <td> {m24}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n25}</td>
-            <td> {m25}</td>
-          </tr>
+              <tr>
+                <td> {t25}</td>
+                <td> {n25}</td>
+                <td> {m25}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n26}</td>
-            <td> {m26}</td>
-          </tr>
+              <tr>
+                <td> {t26}</td>
+                <td> {n26}</td>
+                <td> {m26}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n27}</td>
-            <td> {m27}</td>
-          </tr>
+              <tr>
+                <td> {t27}</td>
+                <td> {n27}</td>
+                <td> {m27}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n28}</td>
-            <td> {m28}</td>
-          </tr>
+              <tr>
+                <td> {t28}</td>
+                <td> {n28}</td>
+                <td> {m28}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n29}</td>
-            <td> {m29}</td>
-          </tr>
+              <tr>
+                <td> {t29}</td>
+                <td> {n29}</td>
+                <td> {m29}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n30}</td>
-            <td> {m30}</td>
-          </tr>
+              <tr>
+                <td> {t30}</td>
+                <td> {n30}</td>
+                <td> {m30}</td>
+              </tr>
 
-          <tr>
-            <td>2</td>
-            <td> {n31}</td>
-            <td> {m31}</td>
-          </tr>
+              <tr>
+                <td> {t31}</td>
+                <td> {n31}</td>
+                <td> {m31}</td>
+              </tr>
 
-          {/* </tbody> */}
-        </table>
+              {/* </tbody> */}
+            </table>
+          </>
+        ) : (
+          <>
+            <button class="buttonload d-flex">
+              <i class="fa fa-spinner  fa-2x fa-spin"></i>
+              <h5 className="ml-3">Loading previous messages</h5>
+            </button>
+          </>
+        )}
+        {flag2 ? <h6  >*network error</h6> : <></>}
       </div>
     </>
   );

@@ -17,3 +17,21 @@ table tr:nth-child(even){
 		table tbody tr {
 			display: none;
 		}
+.buttonload {
+  background-color: #1a1004; /* Green background */
+  border-radius: 10px;
+  border: none; /* Remove borders */
+  color: rgb(240, 240, 240); /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 19px /* Set a font size */
+  
+}
+.myClass{
+    background-color: #466895;
+    padding: 20px;
+}
+.myButton{
+    background-color: #3a3025 !important;
+    color: white;
+    box-shadow: 2px 3px 4px white;
+}
