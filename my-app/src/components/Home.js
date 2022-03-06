@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -185,6 +185,7 @@ const Home = () => {
 
   return (
     <div className="App">
+      <Link to="/">Got to New version</Link>
       <h4>
         This website only a prototype of the website, the main website with good
         user interface and functionalities will be deploy soon!!

@@ -34,14 +34,17 @@ const getList = async (req,res) => {
       res.json({ status: 'error' })
   }
 }
-    
+ var d = new Date();
+var n = d.toLocaleTimeString();
 app.post('/api/register', async (req, res) => {
    
   
     try {
         const user = await List2.create({
+         
             name: req.body.name,
-            massage: req.body.massage
+            massage: req.body.massage,
+            time:n
 
         })
         result = await List2
