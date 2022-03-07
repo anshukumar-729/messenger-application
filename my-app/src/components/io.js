@@ -186,9 +186,9 @@ const Io = () => {
         return ( 
                 <div>
                         <form onSubmit={SendMassage}>
-                                <input value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Name" />
-                                <input value={massage} onChange={(e) => setMassage(e.target.value)} type="text" placeholder="Massage" />
-                                <input type="submit" value="Send" />
+                                <input class = "name" value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Name" />
+                                <input class = "massage" value={massage} onChange={(e) => setMassage(e.target.value)} type="text" placeholder="Massage" />
+                                <input class = "submit" type="submit" value="Send" />
                         </form>
                         <br />
                 </div>
