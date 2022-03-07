@@ -7,8 +7,8 @@ const App = () => {
     <BrowserRouter>
       <div className="max-w-screen-md mx-auto pt-20">
         <Routes>
-          <Route exact path="/" element={<Home/>} />
-          <Route exact path="/about" element={<Home2/>} />
+          <Route exact path="/" element={<Home2/>} />
+          <Route exact path="/about" element={<Home/>} />
         </Routes>
       </div>
     </BrowserRouter>
