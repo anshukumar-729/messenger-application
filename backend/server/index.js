@@ -34,10 +34,10 @@ const getList = async (req,res) => {
       res.json({ status: 'error' })
   }
 }
- var d = new Date();
-var n = d.toLocaleTimeString();
 app.post('/api/register', async (req, res) => {
-   
+    var d = new Date();
+    var n = d.toLocaleTimeString();
+    // console.log(n);
   
     try {
         const user = await List2.create({
