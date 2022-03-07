@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::placeholder{
+  font-family: "Open Sans";
+  color: rgba(0, 0, 0, 0.2);
+  font-style: normal;
+}
+
+.IOdiv{width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.name{
+  display: block;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0,0.2);
+  border-radius: 10px;
+}
+
+.massage{
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0,0.2);
+  border-radius: 10px;
+}
