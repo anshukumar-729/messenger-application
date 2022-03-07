@@ -29,6 +29,7 @@ table tr:nth-child(even){
 .myClass{
     background-color: #466895;
     padding: 20px;
+    margin-top: -25px;
 }
 .myButton{
     background-color: #3a3025 !important;

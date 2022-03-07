@@ -2,11 +2,12 @@ import React from "react";
 import NavBar from "./navBar";
 import IO from "./io";
 import Messeges from "./messege";
+import "./style2.css"
 
 const Home2=()=>{
     return (
       <div>
-        <NavBar />
+       <div><NavBar /></div>
         <IO/>
         <Messeges />
         <br />

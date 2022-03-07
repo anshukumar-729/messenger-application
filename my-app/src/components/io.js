@@ -186,16 +186,46 @@ const IO = () => {
               }
 
               
-        return ( 
-                <div>
-                        <form class = "IOdiv" onSubmit={SendMassage}>
-                                <input class = "name" value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Name" />
-                                <input class = "massage" value={massage} onChange={(e) => setMassage(e.target.value)} type="text" placeholder="Massage" />
-                                <input type="image" src={pic} alt="Submit" width="48" height="48" />
-                        </form>
-                        <br />
-                </div>
-              )
+        return (
+          <div>
+            <head>
+              <link
+                rel="stylesheet"
+                href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+                integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+                crossorigin="anonymous"
+              />
+            </head>
+            
+            <form class=" IOdiv " onSubmit={SendMassage}>
+              
+              <input
+                class="name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                type="text"
+                placeholder="Name"
+                required
+              />
+              <input
+                class="massage"
+                value={massage}
+                onChange={(e) => setMassage(e.target.value)}
+                type="text"
+                placeholder="Massage"
+              />
+              <input
+                type="image"
+                className="img"
+                src={pic}
+                alt="Submit"
+                width="48"
+                height="48"
+              />
+            </form>
+            <br />
+          </div>
+        );
         }
 
 export default IO;
