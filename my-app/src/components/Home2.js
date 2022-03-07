@@ -7,10 +7,12 @@ const Home2=()=>{
     return (
       <div>
         <NavBar />
-        
+        <IO/>
         <Messeges />
         <br />
       </div>
     );
 }
+
+
 export default Home2;
