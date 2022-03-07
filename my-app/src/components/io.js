@@ -175,6 +175,8 @@ const IO = () => {
                   );
                   const data = await response.json();
                   console.log(data.result[data.result.length - 1]);
+                  setName("");
+                  setMassage("");
                 } catch (err) {
                   console.log(err);
                 }
