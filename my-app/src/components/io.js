@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
+import pic from "./SendButton.svg";
 
 const Io = () => {
         const [name, setName] = useState("");
@@ -188,7 +189,7 @@ const Io = () => {
                         <form class = "IOdiv" onSubmit={SendMassage}>
                                 <input class = "name" value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Name" />
                                 <input class = "massage" value={massage} onChange={(e) => setMassage(e.target.value)} type="text" placeholder="Massage" />
-                                <input type="image" src="SendButton.svg" alt="Submit" width="48" height="48" />
+                                <input type="image" src={pic} alt="Submit" width="48" height="48" />
                         </form>
                         <br />
                 </div>

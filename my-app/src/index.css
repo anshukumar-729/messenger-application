@@ -26,6 +26,8 @@ code {
 }
 
 .name{
+  
+  margin: 5px 20px;
   display: block;
   background-color: #ffffff;
   border: 1px solid #ffffff;
@@ -35,6 +37,7 @@ code {
 }
 
 .massage{
+  margin: 5px 20px;
   background-color: #ffffff;
   border: 1px solid #ffffff;
   box-sizing: border-box;
