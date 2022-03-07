@@ -1,0 +1,19 @@
+.c1{
+    color: rgb(13, 15, 0);
+}
+.navbar{
+    background-color: rgb(88, 149, 207) !important;
+}
+.navbar-brand{
+    color: rgb(57, 30, 82);
+}
+.navbar-brand:hover,.c1:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    color:rgb(26, 16, 5);
+    border-bottom-style: none;
+}
+.btn:hover{
+    background-color: rgb(49, 33, 13);
+    color: rgb(189, 199, 202);
+}

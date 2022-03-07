@@ -6,10 +6,8 @@ import Messeges from "./messege";
 const Home2=()=>{
     return (
       <div>
-        {/* <NavBar />
-        <br />
-        <IO />
-        <br /> */}
+        <NavBar />
+        
         <Messeges />
         <br />
       </div>
