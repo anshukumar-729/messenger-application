@@ -16,6 +16,7 @@ code {
   font-family: "Open Sans";
   color: rgba(0, 0, 0, 0.2);
   font-style: normal;
+  padding-left: 10px;
 }
 
 .IOdiv{width: 80%;
