@@ -1,0 +1,60 @@
+7f2d016 HEAD@{0}: merge development: Fast-forward
+22fa67f HEAD@{1}: checkout: moving from development to master
+7f2d016 HEAD@{2}: merge front-end: Fast-forward
+716d588 HEAD@{3}: checkout: moving from front-end to development
+7f2d016 HEAD@{4}: commit: some more style added
+ed2a1a7 HEAD@{5}: merge back-end: Fast-forward
+2595dbe HEAD@{6}: checkout: moving from back-end to front-end
+ed2a1a7 HEAD@{7}: commit: feature of removing input after a successfull sent of message is added
+45aa7f1 HEAD@{8}: commit: front-end merges in backend and done some changes in fetching time
+2595dbe HEAD@{9}: merge front-end: Fast-forward
+716d588 HEAD@{10}: checkout: moving from front-end to back-end
+2595dbe HEAD@{11}: commit: some styling in front-end added
+a2968fb HEAD@{12}: commit (merge): front-end-1 merged and conflict has been removed
+9d56e53 HEAD@{13}: commit (merge): branch front-end-2 and frond-end-3 had merged in front-end branch and conflict was removed
+797e95f HEAD@{14}: merge front-end-2: Fast-forward
+22fa67f HEAD@{15}: pull origin master: Fast-forward
+716d588 HEAD@{16}: checkout: moving from front-end-2 to front-end
+797e95f HEAD@{17}: commit: table styling and loading functionality added almost done messaging part!
+0d79c12 HEAD@{18}: checkout: moving from front-end-1 to front-end-2
+716d588 HEAD@{19}: checkout: moving from front-end-2 to front-end-1
+0d79c12 HEAD@{20}: pull origin back-end-1: Merge made by the 'recursive' strategy.
+18c5b4d HEAD@{21}: checkout: moving from back-end-1 to front-end-2
+b85ed44 HEAD@{22}: commit: time atribute added in user schema and hashing removed in name
+22fa67f HEAD@{23}: pull origin master: Fast-forward
+716d588 HEAD@{24}: checkout: moving from front-end-2 to back-end-1
+18c5b4d HEAD@{25}: commit: some debbuging
+f4c3b2c HEAD@{26}: commit: bootstrap table added
+292d765 HEAD@{27}: commit: some modification in messeges like added bootstrap
+74b2602 HEAD@{28}: commit: some basic initialisation in messege.js file
+22fa67f HEAD@{29}: pull origin master: Fast-forward
+716d588 HEAD@{30}: checkout: moving from master to front-end-2
+22fa67f HEAD@{31}: pull: Fast-forward
+0ef42af HEAD@{32}: checkout: moving from master to master
+0ef42af HEAD@{33}: checkout: moving from development to master
+716d588 HEAD@{34}: checkout: moving from master to development
+0ef42af HEAD@{35}: commit: new git graph added
+716d588 HEAD@{36}: checkout: moving from back-end-2 to master
+716d588 HEAD@{37}: pull origin back-end: Fast-forward
+5cdb914 HEAD@{38}: checkout: moving from back-end-1 to back-end-2
+716d588 HEAD@{39}: pull origin back-end: Fast-forward
+5cdb914 HEAD@{40}: checkout: moving from back-end to back-end-1
+716d588 HEAD@{41}: pull origin development: Fast-forward
+5cdb914 HEAD@{42}: checkout: moving from development to back-end
+716d588 HEAD@{43}: pull origin master: Fast-forward
+5cdb914 HEAD@{44}: checkout: moving from front-end-3 to development
+716d588 HEAD@{45}: pull origin front-end: Fast-forward
+5cdb914 HEAD@{46}: checkout: moving from front-end-2 to front-end-3
+716d588 HEAD@{47}: pull origin front-end: Fast-forward
+5cdb914 HEAD@{48}: checkout: moving from front-end-1 to front-end-2
+716d588 HEAD@{49}: pull origin front-end: Fast-forward
+5cdb914 HEAD@{50}: checkout: moving from front-end to front-end-1
+716d588 HEAD@{51}: checkout: moving from front-end-1 to front-end
+5cdb914 HEAD@{52}: checkout: moving from front-end to front-end-1
+716d588 HEAD@{53}: pull origin master: Fast-forward
+5cdb914 HEAD@{54}: checkout: moving from master to front-end
+716d588 HEAD@{55}: commit: routing added
+e205e9e HEAD@{56}: commit: changes
+cd137fb HEAD@{57}: commit: changes
+2a442e3 HEAD@{58}: commit: changes
+5cdb914 HEAD@{59}: commit (initial): intial commit for mern setup

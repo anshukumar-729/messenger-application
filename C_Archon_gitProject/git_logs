@@ -1,0 +1,190 @@
+commit 7f2d0163aed55b073af36495f928253edcfb0c4e
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Mon Mar 7 18:50:48 2022 +0530
+
+    some more style added
+
+commit ed2a1a72bc1ca6a28026bfa3671a1247f22fec72
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Mon Mar 7 18:09:12 2022 +0530
+
+    feature of removing input after a successfull sent of message is added
+
+commit 45aa7f1b7794d103b7ead7d3c5bbe33c1a821485
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Mon Mar 7 18:04:56 2022 +0530
+
+    front-end merges in backend and done some changes in fetching time
+
+commit 2595dbeb7ca4a46e243aacb69c38f47e6ade712d
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Mon Mar 7 18:01:17 2022 +0530
+
+    some styling in front-end added
+
+commit a2968fb22ea8d80488c66d1cb133325bea5d8bc4
+Merge: 9d56e53 0b4fe23
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Mon Mar 7 17:48:11 2022 +0530
+
+    front-end-1 merged and conflict has been removed
+
+commit 9d56e536f198b43ae06f8aa6c512d34f715c96ff
+Merge: 797e95f 61a5821
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Mon Mar 7 17:07:57 2022 +0530
+
+    branch front-end-2 and frond-end-3 had merged in front-end branch and conflict was removed
+
+commit 61a5821ae7198bbd02f0445c0a37ea2f930cca1e
+Author: shaik rahul <shaikrahul@shaikrahu.iitbhilai.ac.in>
+Date:   Mon Mar 7 16:49:30 2022 +0530
+
+    nav bar almost done
+
+commit ed01ba19eb7bfa415334dda4ed4303656f629109
+Author: shaik rahul <shaikrahul@shaikrahu.iitbhilai.ac.in>
+Date:   Mon Mar 7 16:30:21 2022 +0530
+
+    bootstrap navbar added
+
+commit a2331cc4928cc2cc2df47208fa377b95eef4b189
+Author: shaik rahul <shaikrahul@shaikrahu.iitbhilai.ac.in>
+Date:   Mon Mar 7 16:11:13 2022 +0530
+
+    initial commit for pull changes from master
+
+commit 0b4fe2304dc9dabcef19f97f4611c12044e5e921
+Author: Cole-Randolph <84653841+Cole-Randolph@users.noreply.github.com>
+Date:   Mon Mar 7 13:35:33 2022 +0530
+
+    changes
+
+commit 64aa570c540fc35008eb52c54d82d21304fb7a60
+Author: Cole-Randolph <84653841+Cole-Randolph@users.noreply.github.com>
+Date:   Mon Mar 7 13:33:33 2022 +0530
+
+    7th commit
+
+commit 59ab97728c1562f36377d492e085ca5028a62f31
+Author: Cole-Randolph <84653841+Cole-Randolph@users.noreply.github.com>
+Date:   Mon Mar 7 13:08:50 2022 +0530
+
+    6th commit
+
+commit 26355e0c2e39224076dd45961c4a3ce009d40a9a
+Author: Cole-Randolph <84653841+Cole-Randolph@users.noreply.github.com>
+Date:   Mon Mar 7 13:08:20 2022 +0530
+
+    5th commit
+
+commit 286ed9d74a3cec1667c9c2e14c405472e69d6c87
+Author: Cole-Randolph <84653841+Cole-Randolph@users.noreply.github.com>
+Date:   Mon Mar 7 12:52:48 2022 +0530
+
+    4th commit
+
+commit 2673a20f03d3ca860b7254fa5b576771fe270ca3
+Author: Cole-Randolph <84653841+Cole-Randolph@users.noreply.github.com>
+Date:   Mon Mar 7 12:21:02 2022 +0530
+
+    3rd commit
+
+commit ac359780fa12ec7f84a9a49e8ab46028e5645e9f
+Author: Cole-Randolph <84653841+Cole-Randolph@users.noreply.github.com>
+Date:   Mon Mar 7 12:03:11 2022 +0530
+
+    2nd commit
+
+commit 0fdd112a275972e605694336a2e157478e0f91d9
+Author: Cole-Randolph <84653841+Cole-Randolph@users.noreply.github.com>
+Date:   Mon Mar 7 12:00:59 2022 +0530
+
+    1st commit
+
+commit 797e95f80616e0d578c2d83b807a615137772f6f
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Sun Mar 6 17:43:10 2022 +0530
+
+    table styling and loading functionality added almost done messaging part!
+
+commit 0d79c12f612c9dd9891ecf1b827db2715fc0ffac
+Merge: 18c5b4d b85ed44
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Sun Mar 6 16:09:51 2022 +0530
+
+    merging time attribute
+    
+    Merge branch 'back-end-1' of https://github.com/anshukumar-729/messenger-application into front-end-2
+
+commit b85ed44604008c71ddbd33ff5c4b12eafdb2c3eb
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Sun Mar 6 16:08:56 2022 +0530
+
+    time atribute added in user schema and hashing removed in name
+
+commit 18c5b4d5ee5739b412014158d77af51facc9eebc
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Sun Mar 6 15:47:57 2022 +0530
+
+    some debbuging
+
+commit f4c3b2cbed5093ad8c29a42c316507e2ebaee602
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Sun Mar 6 15:39:40 2022 +0530
+
+    bootstrap table added
+
+commit 292d765c8ec8f715d30ee6b43e8570bf7274fe20
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Sat Mar 5 23:23:35 2022 +0530
+
+    some modification in messeges like added bootstrap
+
+commit 74b260206327edc5b3b51cf84c1e8d0d55be31be
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Sat Mar 5 20:15:27 2022 +0530
+
+    some basic initialisation in messege.js file
+
+commit 22fa67ff2c0fc22ed616fa7c3084baa29dca4d5f
+Author: Cole-Randolph <84653841+Cole-Randolph@users.noreply.github.com>
+Date:   Fri Mar 4 13:39:28 2022 +0530
+
+    divison of work in components
+
+commit 0ef42af92dbf2a06abcebab75ea628e185a09473
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Thu Mar 3 12:00:01 2022 +0530
+
+    new git graph added
+
+commit 716d588e8fe88a7eec9734c3e2e9df8d54eb8178
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Thu Mar 3 03:54:21 2022 +0530
+
+    routing added
+
+commit e205e9ea1f6f6b66726080bb5f9c31816471f1b4
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Thu Mar 3 00:38:30 2022 +0530
+
+    changes
+
+commit cd137fbb4e6c5b8c4c52203bc3cb8d41366f96c6
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Thu Mar 3 00:36:20 2022 +0530
+
+    changes
+
+commit 2a442e3345545239f542536eaf7eae467c767bf0
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Thu Mar 3 00:35:09 2022 +0530
+
+    changes
+
+commit 5cdb91458b8060fba4c2bcb6f9d94da0c3f273cd
+Author: Anshu kumar <anshukumar93.40@gmail.com>
+Date:   Wed Mar 2 23:40:25 2022 +0530
+
+    intial commit for mern setup
